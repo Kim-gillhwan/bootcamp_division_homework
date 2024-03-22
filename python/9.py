@@ -5,7 +5,13 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
-
+    while True:
+        n = int(input())
+        if n > 0:
+            print(sum(range(1, n+1)))
+            break
+        else:
+            print('X')
     return
 
 
